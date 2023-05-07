@@ -1,0 +1,48 @@
+.user{
+  min-height: 90vh;
+}
+
+.profile {
+    max-width: 600px;
+    min-height: 90vh;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  .profile h2 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  }
+  
+  /* .profile h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  } */
+  .logout-btn{
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .profile {
+      padding: 10px;
+    }
+  
+    .profile h1 {
+      font-size: 1.5rem;
+      margin-bottom: 5px;
+    }
+  
+    .profile h3 {
+      font-size: 1rem;
+      margin-bottom: 5px;
+    }
+  }
+  

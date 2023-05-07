@@ -1,0 +1,53 @@
+/* .todo {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(1, 0, 0, 0.2);
+
+    
+  }
+  
+  .todo h4 {
+    margin-bottom: 5px;
+    font-size: 18px;
+  }
+  
+  .todo p {
+    margin: 0;
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .todo input[type="checkbox"] {
+    margin-right: 10px;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .todo .btny {
+    background-color: #f44336;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .todo {
+      flex-direction: column;
+    }
+  
+    .todo input[type="checkbox"] {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .todo .btn {
+      margin-top: 10px;
+    }
+  }
+   */

@@ -1,0 +1,71 @@
+/* Register page styles */
+
+/* Set up overall layout and spacing */
+section {
+
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+  }
+  
+  form {
+    width: 60%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid lightblue;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    font-size: 16px;
+  }
+  
+  button[type="submit"],.login-btn {
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 14px 80px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+  }
+  .login-btn:hover{
+    background-color:lightcoral;
+
+  }
+  button[type="submit"]:hover {
+    background-color: lightcoral;
+  }
+  
+  h4 {
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 12px;
+  }
+  h6{
+    color: purple;
+    font-weight: 500;
+  }
+  
+  /* Media queries for responsiveness */
+  
+  @media (max-width: 600px) {
+    form {
+      width: 100%;
+      padding: 16px;
+    }
+  }
+  
