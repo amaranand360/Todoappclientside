@@ -7,7 +7,7 @@ This is a simple ToDo application built using the MERN (MongoDB, Express, React,
 
 # 🚀 Installation
 
-- To install and run the application, follow these steps:
+To install and run the application, follow these steps:
 
     Clone the repository to your local machine using the following command: https://github.com/amaranand360/Todoappclientside.git
     
